@@ -31,7 +31,7 @@ function displayFahrenheit(response) {
   h1.innerHTML = response.data.name;
   let currentDeg = document.querySelector("#current-deg");
   let temperature = Math.round(response.data.main.temp);
-  currentDeg.innerHTML = `${temperature}°`;
+  currentDeg.innerHTML = `${temperature}`;
 }
 
 //display city input on page
