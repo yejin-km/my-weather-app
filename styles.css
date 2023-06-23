@@ -60,8 +60,15 @@ a:hover {
 /* 5 days weather column */
 .days {
   text-align: center;
+  border: 1px solid gray;
+  border-radius: 10px;
 }
 
 .weather-icon {
   font-size: 50px;
+}
+
+.five-days-container {
+  column-gap: 30px;
+  row-gap: 30px;
 }
